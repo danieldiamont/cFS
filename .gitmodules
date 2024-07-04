@@ -14,6 +14,10 @@
 	path = apps/ci_lab
 	url = git@github.com:danieldiamont/ci_lab.git
   branch = main
+[submodule "apps/sbn"]
+	path = apps/sbn
+	url = git@github.com:danieldiamont/sbn.git
+  branch = main
 [submodule "apps/sample_app"]
 	path = apps/sample_app
 	url = https://github.com/nasa/sample_app.git
@@ -42,3 +46,6 @@
 	path = tools/tblCRCTool
 	url = https://github.com/nasa/tblCRCTool.git
   branch = main
+[submodule "sbn"]
+	path = sbn
+	url = git@github.com:danieldiamont/sbn.git
