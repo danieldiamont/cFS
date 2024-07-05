@@ -4,8 +4,7 @@
 SBN_RemapTbl_t SBN_RemapTbl = {
     .RemapDefaultFlag = SBN_REMAP_DEFAULT_SEND,
     .Entries          = {
-        {.ProcessorID = 2, .SpacecraftID = 0x42, .FromMID = {0x1806}, .ToMID = {0x1906}},
-        {.ProcessorID = 2, .SpacecraftID = 0x42, .FromMID = {0x1807}, .ToMID = {0x1907}},
+        // {.ProcessorID = 2, .SpacecraftID = 0x42, .FromMID = {0x1806}, .ToMID = {0x1906}},
 
         /** ProcessorID "0" signals the end of the table. */
         {
